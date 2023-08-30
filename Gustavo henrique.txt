@@ -1,0 +1,72 @@
+1 - 
+Diferenças entre as linguagens mais utilizadas de conteúdo Web.
+HTML é usado para estruturar e dar significado para o conteúdo Web, como parágrafos, cabeçalhos, tabelas de conteúdo, ou inserindo imagens e vídeos na página.
+CSS é usado para criar o estilo do HTML, como cores de fundos e fontes, e posicionando nosso conteúdo em múltiplas vozes.
+JAVASCRIPT permite a criação de conteúdo que se atualiza dinamicamente, controlar múltimídias e imagens animadas.
+
+2 -
+Navegadores Web mais utilizados. 	
+Google Chrome - 63,51%.
+Apple Safari - 20,43%.
+Microsoft Edge - 4,96%.
+Mozilla Firefox - 2,77%.
+
+3 - 
+Sites mais visitas no Brasil. 	
+youtube.com - 3.9 B de visitas.
+google.com - 3.2 B de visitas.
+xvideos.com - 880 M de visitas. 
+globo.com - 520 M de visitas.
+uol.com.br - 468 M de visitas.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+diferenças de estruturas, antigamete era utilizado apenas uma tag (diV), mas com o tempo eles preferiram criar outras tags para ficar mais facil de se localizar.
+
+elementos que vão dentro da TAG BODY
+
+Header - cabeçario 
+
+inserido dentro do HTML e deve conter os titulos, indices e logotipos de uma pagina, pode ser inserido no corpo da pagina ou em uma marcação <section> ou <article>.
+
+Nav - menu de navegação 
+
+é uma das marcações estruturais do HTML, que contém a seção de links de navegação, utilizado junto com o elemento de hiperlink <a>.Esse elemento é muito útil para criar menus de navegação
+é como uma lista alinhada para fazer e se apresenta como lista não ordenada. 
+ exemplo: <a href="link">  nome do hiperlink  </a> - criação de hiperlink 
+
+podemos addc um atributo a essa tag chamada TARGET, dentro deles temos 4 opções, para addc elas tem que addc _ dentro das aspas "xxx"
+ exemplo: <a target="_blank" href="link">  nome do hiperlink  </a> 
+
+TAG BR É TAG QUE UTILIZADA PARA QUEBRAR LINHA DENTRO DO SITE, É UMA TAG QUE NÃO TEM FECHAMENTO, NO CASO QUANDO UTILIZAMOS UMA TAG PARA ADDC MAIS DE UMA INFORMAÇÃO.
+
+Main - menu
+
+Usado apenas uma vez dentro do HTML como uma forma pincipal da sua pag, essa tag delimita a area do conteudo mais importante da pag web, é uma forma de redenrizar e chamar atenção para um só conteudo, o certo é usar apenas uma vez no seu arquivo.
+
+article - artigo - dentro da tag main
+
+elemento que vai ter um conteudo dentro dele que não depende ou que se completa com conteudo principal, é um conteudo faça sentido por si só como uma manchete.
+
+section - seção - dentro da tag main 
+
+Essa Tag contem tbm conteudo idepedente mas é voltado para seção genérica contida em um documento HTML, como anuncios ou textos, mas é mais comum ser usado como imagem ou gifs os anuncios.  
+
+footer - rodapé
+
+incerido abaixo da tag MAIN é usado para colocar um mini formulario para contato, pode ser usado como addc de links para paginas principais do site, pode ser colocado em formato de icone as redes socias da empresa, alguma outra forma de contato ou chamar a atenção do usuario, clocamos a tag COPY <&copy;2023>
+
+DIV - Tag generica 
+
+tbm faz parte da parte estrutural do HTML, usada como forma generica quando não sabe ou não tem uma tag especifica para fazer oq vc quer dentro do seu site,pode ser muito útil para delimitar um bloco com um ou mais elementos estruturais, no qual queremos aplicar um estilo CSS, uma forma de marcação para mecher em todo conteudo da Tag.
+
+ELEMENTOS TESTUAIS - P
+
+são usados para indicar um contexto e um significado estrutural de um bloco de texto, que está incorporado entre as tags de abertura e fechamento, são usadas para formatar o texto. 
+
+
+
+
+
+
+

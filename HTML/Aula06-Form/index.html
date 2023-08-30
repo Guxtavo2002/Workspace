@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://ios.org.br/" method="post">
+
+        <!-- Formulario descrição e campos -->
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label>Nome de Usuário:</label>
+            <input type="text" required>
+            <br>
+            <label for="">Número de Telefone:</label>
+            <input type="number">
+            <br>
+            <label for="">CEP:</label>
+            <input type="number">
+            <br>
+            <input type="submit" value="Cadastrar">
+        </fieldset>
+
+        <br><br><br><br>
+        
+
+
+        <!-- seleção unica dentro das opções -->
+        <fieldset>
+            <legend>Escolha sua música</legend>
+            <input type="radio" name="música">
+            <label for="">Vuk Vuk</label>
+            <br>
+            <input type="radio" name="música">
+            <label for="">Yellow</label>
+            <br>
+            <input type="radio" name="música">
+            <label for="">Flutua</label>
+            <br>
+            <input type="radio" name="música">
+            <label for="">Vai novinha</label>
+        </fieldset>
+
+        <br><br><br><br>
+
+        <!-- seleção mais de uma dentro das opções -->
+        <fieldset>
+            <legend>Sabor da pipoca</legend>
+            <input type="checkbox">
+            <label for="">Caramelizada</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Salgada</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Ninho</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Chocolate</label>
+        </fieldset>
+
+        <br><br><br><br>
+        
+
+        <!-- tipo range -->
+        <fieldset>
+            <legend>Barra</legend>
+            <label for="">05</label>
+            <input type="range">
+            <label for="">100</label>
+        </fieldset>
+            
+        <br><br><br><br>
+
+        <!-- lista suspensa -->
+        <fieldset>
+            <legend>Lista suspensa</legend>
+            <label for="">Sabores de sorvete</label>
+            <select name="" id="">
+                <option value="Selecione">Selecione</option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Creme">Creme</option>
+                <option value="Morango">Morango</option>
+                <option value="Flocos">Flocos</option>
+            </select>
+        </fieldset>
+
+        <br><br><br><br>
+
+        <!-- lista pré-definida -->
+        <fieldset>
+            <legend>Lista pré-definida</legend>
+            <label for="">Filmes</label>
+            <input type="text" list="Filmes">
+            <datalist id="Filmes">
+                <option value="Crespuculo">Crespuculo</option>
+                <option value="Um olhar no paraiso">Um olhar no paraiso</option>
+                <option value="Harry Potter">Harry Potter</option>
+                <option value="As branquelas">As branquelas</option>
+            </datalist>
+        </fieldset>
+
+        <br><br><br><br>
+
+        <!-- Textarea - caixa de texto -->
+        <!-- cols - colunas 
+             rows - linhas-->
+        
+        <fieldset>
+        <legend>Programador</legend>
+        <label for="Programador">Programador</label>
+        <input type="text" name="Programador">
+        <textarea name="Programador" id="Programador" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br><br><br>
+
+        <fieldset>
+        <legend>Fale sobre o seu filme favorito</legend>
+        <label for="">Filmes</label>
+        <input type="text" name="Programador">
+        <textarea name="Programador" id="Programador" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br><br><br>
+        
+        <fieldset>
+        <legend>Fale sobre o seu show favorito da Xuxa</legend>
+        <label for="">Show da Xuxa</label>
+        <input type="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <br><br><br><br>
+        
+    </form>
+</body>
+</html>
