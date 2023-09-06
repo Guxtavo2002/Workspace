@@ -1,0 +1,26 @@
+div#primeiradiv{
+    border: 2px solid red;
+    margin: auto;
+
+}
+
+div#segundadiv{
+
+}
+
+img{
+    width: 500px ; /*Largura*/
+    height: 300px ; /*altura*/
+}
+
+#foto2{
+    height: 400px;
+}
+
+/* imagem de fundo utilizando backgroud */
+body{
+    background-image: url("img/fundo.jpg");
+    background-position: 600px;
+    
+
+}
