@@ -1,0 +1,29 @@
+.conjunto1{
+    color: blue;
+}
+.conjunto2{
+    color: blueviolet;
+  
+}
+
+.cj3{
+    color: brown;
+}
+
+/* trabalhando com IDs */
+
+#titulo{
+    color: aquamarine;
+}
+
+#cor{
+    color: yellow;
+}
+
+section p{
+    color: yellow;
+}
+
+section #teste{
+    color: blue;
+}

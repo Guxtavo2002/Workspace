@@ -1,0 +1,10 @@
+body{
+    font-size: 1rem;
+    font-family: 'roboto mono', monospace;
+    background: #b3e9f3;
+    font-weight: 700;
+}
+h1{
+    background: #6590d1;
+    text-shadow: 3px, 3px, #48789f;
+}
