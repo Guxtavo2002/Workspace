@@ -1,0 +1,24 @@
+/* colocar borda nos divs de 1px solid cor sua escolha */
+/* topo - direita - base - esquerda - conseguimos conf a margem deessa forma no CSS */
+
+div{
+    border: 1px solid black ;
+    /* aplicando de forma individual */
+    margin-top: 10px; /*topo = 10px */
+    margin-right: 20px; /* direita = 20px */
+    margin-bottom: 50px; /* base = 50px */
+    margin-left: 50px; /*esquerda = 50px*/
+    /* Maneiras de aplicar  */
+    /* 1 - conseguimos simplificar esse valor margin usando a propriedade na sequencia certa no caso horario como esta descrito (mais usado)*/ 
+    /* 2 - para conf para todos os lados para o memsmo px é só apenas puxar o margin */
+    /* 3 - margin: 50 px; (e vai se aplicao para todas) */
+    /* 4 - podemos conf com 3 valores no margin usando o sentido horario topo - direita e baixo - esquerda */
+}   
+
+/* colocar borda no paragrafo 1 px splid cor de sua escolha */
+
+p{
+    border: 1px solid red;
+    padding: 15px 10px 15px 10px;
+    margin: 50px;
+}
