@@ -1,0 +1,23 @@
+#Pai{
+    font-size: 50px;
+}
+
+/* p{
+    font-size: 100px;
+} */
+
+img{
+    width: 350px;
+}
+
+#PrimeiraImg{
+    float: left;
+}
+
+#SegundaImg{
+    float: right;
+}
+
+p{
+    clear: none;
+}
