@@ -73,3 +73,42 @@ if(inscricao == true){
         console.log("voce não passou na fase 2")
     }
 }
+
+console.clear()
+
+let pipoca1 = 10
+  let pipoca2 = 56
+
+  if(pipoca1>pipoca2){
+    console.log(pipoca1 + " é maior")
+  }else{
+    console.log(pipoca2 + " é maior")
+  }
+
+  pipoca1 > pipoca2 ? console.log(pipoca1 + " é maior") :
+  console.log(pipoca2 + "é maior;")
+
+  let mounth = 3
+ 
+  switch(mounth){
+    case mounth == 3:
+    console.log("Março")
+    break;
+    case mounth == 4:
+    console.log("Abril")
+    break;
+    case  10:
+    console.log("Outubro")
+    break;
+    case  12:
+    console.log("Dezembro")  
+    break;  
+    default:
+    console.log("Não encontrei o mês")
+  }
+
+  console.clear()
+
+
+
+  
