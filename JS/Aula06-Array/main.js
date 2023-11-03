@@ -2,7 +2,7 @@ var numeros = [54, 111, 58, 853, 17, 75, 30] //array unidimensional
 
 // console.log(numeros)
 console.log("Antes de alterar a posição:" + numeros);
-numeros[3] = "hoara do lanche";
+numeros[3] = "hora do lanche";
 console.log("depois de alterar a posição:" + numeros);
 
 //Array bidimensional 
