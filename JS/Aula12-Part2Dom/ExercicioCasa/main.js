@@ -6,7 +6,7 @@ for (let t = 0; a <= botao.length; t++) {
     botao[a].style.margin = '7rem';
 }
 
-const podeSer = () => {
+const respostas = () => {
     var nome = prompt('Por favor insira o seu nome: ');
     var span = document.getElementById('spanBotao')
     console.log(nome)
